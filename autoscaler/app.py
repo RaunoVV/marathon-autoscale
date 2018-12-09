@@ -4,7 +4,7 @@ import logging
 
 class MarathonApp:
 
-    MARATHON_APPS_URI = '/service/marathon/v2/apps'
+    MARATHON_APPS_URI = '/v2/apps'
 
     def __init__(self, app_name, api_client):
         self.app_name = app_name
